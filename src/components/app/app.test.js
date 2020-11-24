@@ -1,6 +1,6 @@
 import * as React from "react"
 import { render } from '@testing-library/react';
-import App from './App';
+import App from './app';
 
 test('Renders correct content', () => {
   const { getByText } = render(<App />);
@@ -13,7 +13,7 @@ test('Renders correct content', () => {
 
 });
 
-test('User can click links and be redirected to correct page', () => {
+// test('User can click links and be redirected to correct page', () => {
 
 
-})
+// })
